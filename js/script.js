@@ -43,7 +43,7 @@
   var initScrollNav = function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 200) {
+    if (scroll >= 1000000) {
       $('#header').addClass("fixed-top");
     }else{
       $('#header').removeClass("fixed-top");
@@ -81,8 +81,8 @@
     });
 
     $('.main-slider').slick({
-        autoplay: false,
-        autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         fade: true,
         dots: true,
         prevArrow: $('.prev'),

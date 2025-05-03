@@ -16,13 +16,13 @@
 
 /* Theme Colors */
 :root {
-  --accent-color: #C5A992;
-  --secondary-color: #C5A992;
-  --dark-color: #2f2f2f;
-  --light-color: #1417fb;
-  --body-text-color: #f80202;
-  --light-text-color: #afafaf;
-  --dark-text-color: #2f2f2f;
+  --accent-color: #a5c592;
+  --secondary-color: #a8c592;
+  --dark-color: #b6fdb4c1;
+  --light-color: #0cf08dcf;
+  --body-text-color: #a0f9a1;
+  --light-text-color: #73f4e9fc;
+  --dark-text-color: #4bfa82ec;
 }
 
 /* Fonts */
@@ -103,7 +103,8 @@ h4,
 h5,
 h6 {
   color: var(--heading-color);
-  color: green;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0d6efd;
 }
 
 a {
@@ -362,7 +363,6 @@ textarea {
   font-size: inherit;
   line-height: inherit;
   outline: 0;
-  color:rgb(0, 0, 0)
 }
 
 figure {
@@ -624,7 +624,7 @@ textarea,
 select {
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
+  background-color: #baf800f8;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
@@ -761,7 +761,6 @@ td:last-child {
 button,
 .button {
   margin-bottom: 1rem;
-  color:rgb(255, 153, 0)
 }
 
 input,
@@ -1366,31 +1365,26 @@ This is main CSS file that contains custom style rules used in this template
 .padding-xsmall {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  color:#000
 }
 
 .padding-small {
   padding-top: 2em;
   padding-bottom: 2em;
-  color:#fcda00
 }
 
 .padding-medium {
   padding-top: 4em;
   padding-bottom: 4em;
-  color:#000fe4e1
 }
 
 .padding-xlarge {
   padding-top: 9.5em;
   padding-bottom: 9.5em;
-  color:#000
 }
 
 .padding-2xlarge {
   padding-top: 15em;
   padding-bottom: 15em;
-  color:#000
 }
 
 /* no padding */
@@ -1589,7 +1583,6 @@ button {
   line-height: 1;
   position: relative;
   margin-bottom: 75px;
-  color:#0d6efd;
 }
 
 .section-title.divider {
@@ -1715,7 +1708,7 @@ img.post-image {
 }
 
 .top-content a {
-  color: #0eed30;
+  color: #555;
   text-decoration: none;
 }
 
@@ -1765,7 +1758,7 @@ img.post-image {
   padding-right: 10px;
   padding-left: 10px;
   text-decoration: none;
-  color: 000(--body-text-color);
+  color: var(--body-text-color);
 }
 
 #header-wrap.show .search-bar {
@@ -1782,7 +1775,7 @@ img.post-image {
   margin-bottom: 0;
   font-weight: 300;
   padding-left: 20px;
-  background: #f3f3f1;
+  background: #efeee8;
 }
 
 .action-menu .side-nav-bar .menu-btn a,
@@ -1818,16 +1811,14 @@ img.post-image {
 ------------------------------------------------------------- */
 #header {
   padding: 20px 0;
-  border-bottom: 1px solid #E0E0E0;
-  background-color: hsl(230, 95%, 38%);
+  border-bottom: 1px solid #bb5454;
+  background-color: #2cb374;
 }
 
 #header .menu-list a {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.12em;
- background-color:hsl(230, 95%, 38%);
-  
 }
 
 #header .menu-list a.active {
@@ -1855,8 +1846,7 @@ img.post-image {
 .banner-content h2.banner-title {
   font-size: 4.5em;
   font-weight: 500;
-  color: green;
-  font-family: 'Courier New', Courier, monospace;
+  color: #222;
 }
 
 .banner-content p {
@@ -1884,8 +1874,8 @@ img.post-image {
 }
 
 #billboard button.slick-arrow:hover {
-  border: 1px solid #83f509;
-  background-color: #f1e9e9;
+  border: 1px solid #74642F;
+  background-color: #E5E3DA;
 }
 
 #billboard button.prev.slick-arrow {
@@ -1897,7 +1887,7 @@ img.post-image {
 }
 
 #billboard .slick-arrow i.icon {
-  color: #2c07fe;
+  color: #8C8C8C;
 }
 
 @media screen and (max-width: 1366px) {
@@ -2031,7 +2021,7 @@ img.post-image {
 
 .tabs .tab.active,
 .tabs .tab:hover {
-  color: #ceed05;
+  color: #111;
   border-bottom: 2px solid #9A884C;
 }
 
@@ -2063,7 +2053,6 @@ img.books-image {
 #quotation .author-name {
   font-family: "Prata", Georgia, serif;
   font-size: 1.4em;
-  color:rgb(242, 0, 255)
 }
 
 @media screen and (max-width: 768px) {
@@ -2317,6 +2306,7 @@ footer#footer {
 #footer .footer-menu {
   margin-right: 40px;
   margin-bottom: 40px;
+  color:#b300ff 
 }
 
 #footer .footer-menu ul {
@@ -2338,8 +2328,6 @@ footer#footer {
   margin-top: 0;
   margin-bottom: 40px;
   text-transform: capitalize;
-  color:red
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -2415,7 +2403,7 @@ footer#footer {
 }
 
 .product-item .item-price {
-  color: #ffc400;
+  color: #74642F;
   font-size: 1.3em;
 }
 
